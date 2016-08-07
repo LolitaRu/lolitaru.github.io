@@ -1,4 +1,3 @@
-<?php
 //echo $_SERVER['HTTP_USER_AGENT'];
 if( $curl = curl_init() ) {
 	curl_setopt($curl, CURLOPT_URL, 'http://classic.dzzzr.ru/moscow/?section=anons&&err=22');
@@ -17,4 +16,3 @@ if( $curl = curl_init() ) {
    echo curl_exec($curl);
    curl_close($curl);
   }
-?>
