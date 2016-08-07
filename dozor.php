@@ -2,7 +2,6 @@
 //echo $_SERVER['HTTP_USER_AGENT'];
 if( $curl = curl_init() ) {
 	curl_setopt($curl, CURLOPT_URL, 'http://classic.dzzzr.ru/moscow/?section=anons&&err=22');
-	curl_setopt($curl, CURLOPT_HEADER, 1);
     curl_setopt($curl, CURLOPT_RETURNTRANSFER,true);
     curl_setopt($curl, CURLOPT_POST, true);
     curl_setopt($curl, CURLOPT_POSTFIELDS, array (
